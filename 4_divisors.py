@@ -4,7 +4,7 @@
 num = int(input('Please enter a number: '))
 
 # Generates list containing integers from 1 to given numeber
-x = range(1, num)
+x = range(1, (num + 1))
 
 # Generate empty list for divisors
 y = []
